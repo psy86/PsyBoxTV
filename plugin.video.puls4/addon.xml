@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.puls4" name="Puls 4" version="0.4.0" provider-name="sofaking, gismo2004">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.future" version="0.17.1" optional="false"/>
+        <import addon="script.module.simplecache" version="1.0.11" optional="false"/>
+        <import addon="script.module.simplejson" version="3.16.1" optional="false"/>
+        <import addon="script.module.inputstreamhelper" version="0.3.5" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Puls 4</summary>
+        <summary lang="en">Puls 4</summary>
+        <language>de</language>
+        <description lang="de">Puls 4 - Ermöglicht Ihnen den Zugriff auf die Puls 4 Video Platform</description>
+        <description lang="en">Puls 4 - This plugin provides access to the "Puls 4 Video Portal"(Austrian Television)</description>
+        <license>GPL-2.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=219656</forum>
+        <email>sofaking@gettingmoney.at</email>
+        <website>https://www.puls4.com/</website>
+        <source>https://github.com/s0faking/plugin.video.puls4</source>
+    </extension>
+</addon>
