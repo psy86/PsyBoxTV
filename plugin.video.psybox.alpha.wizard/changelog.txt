@@ -1,4 +1,0 @@
-v1.0
-First Release
-
-1.4 Addon und Design Update
